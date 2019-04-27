@@ -1,8 +1,8 @@
-#Credits to 'nazarpechka' for helping out with this code
+
 
 import string, random, os, sys, _thread, urllib, time, requests
 
-# from PIL import Image
+
 
 
 if len(sys.argv) < 2:
