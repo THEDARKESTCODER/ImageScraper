@@ -20,10 +20,11 @@ def scrape_pictures(thread):
         url = 'http://i.imgur.com/'
         length = random.choice((5, 6))
         if length == 5:
-            url += ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for _ in range(5))
+            url += ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for _ in range(4))
+            url += '.jpg'
         else:
             
-            url += ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for _ in range(6))
+            url += ''.join(random.choice(string.ascii_lowercase + string.ascii_uppercase + string.digits) for _ in range(5))
             url += '.jpg'
             # print (url)
 
