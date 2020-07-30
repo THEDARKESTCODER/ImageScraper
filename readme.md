@@ -1,8 +1,8 @@
 
-It's version prinscrScraper for Python3.
+It's a version prinscrScraper for Python3.
 
 
 
-1. Open terminal or cmd and type "pip install requests"
+1. Open the terminal or cmd and type "pip install requests"
 
-For Run - python img.py 15
+For execution - python img.py 15
